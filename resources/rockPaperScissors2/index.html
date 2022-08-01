@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type ="image/x-icon" href="./img/rock.png">
+</head>
+<body>
+    <header>
+        <h1>ROCK PAPER SCISSOR</h1>
+        <p>the game</p>
+    </header>
+<main>
+    <div class="container">
+        <div class="user-side">
+            <div class="choice" ><img id="rock" src="./img/rock.png" alt=""></div>
+            <div class="choice" ><img id="paper" src="./img/paper.png" alt=""></div>
+            <div class="choice" ><img id="scissor" src="./img/scissor.png" alt=""></div>
+        </div>
+        <div class="result-side">
+            <div id="result"></div>
+            <div class="score">
+                <h2>User Score <span id="userScore">0</span></h2>
+                <h2>Computer Score <span id="computerScore">0</span></h2>
+                <button id="reset">i'm lossing, let's restart</button>
+            </div>
+
+        </div>
+        <div class="computer-side">
+            <div id="computer-choice">
+                <img src="./img/pc.png" alt="">
+            </div>
+
+        </div>
+
+    </div>
+</main>
+<footer>
+    <p>copyright Diogo Leite 2022</p>
+</footer>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>

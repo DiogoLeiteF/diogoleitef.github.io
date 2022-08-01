@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inconsolata:wght@300;400&display=swap');
+/* 
+font-family: 'Amatic SC', cursive;
+font-family: 'Inconsolata', monospace; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+body{
+    text-align: center;
+    background-color: rgb(62, 62, 62);
+    font-family: 'Inconsolata', monospace;
+    font-size: 16px;
+
+}
+
+header{
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(230, 64, 136);
+}
+
+h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 5rem;
+    font-weight: 700;
+    margin-top: 20px;
+    color: rgb(230, 64, 136);
+}
+
+p{
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+main{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 600px; */
+    width: 80%;
+    max-width: 1600px;
+
+}
+
+.user-side{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.choice {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width:60%;
+    height: auto;
+    
+}
+
+.result-side{
+    width: 30%;
+}
+
+.computer-side{
+    width: 30%;
+}
+
+#result{
+    font-size: 2rem;
+    color: rgb(230, 64, 136);
+
+}
+
+
+#reset{
+    background-color: transparent;
+    padding: 0.7rem 1.5rem;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+    color: rgb(144, 144, 144);
+}
+
+.score h2{
+    color: whitesmoke;
+    font-size: 1rem;
+}
+
+footer p{
+    font-size: 0.8rem;
+    margin: 50px auto;
+
+}
